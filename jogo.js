@@ -16,7 +16,7 @@ else if(dificuldade == 'dificil'){
 
 }
 else if(dificuldade === 'fodao'){
-       tempoMosquito= 0750
+       tempoMosquito= 0850
 
 }
 
