@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo mosquito</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='jogo.js'></script>
+</head>
+<body onresize="ajustarTamanho()">
+
+    <div class='painel'>
+        <div class='vida'>
+            <img id='v1'  src="assets/coracao_cheio.png" alt="coração vazio">
+            <img id='v2'  src="assets/coracao_cheio.png" alt="coração cheio">
+            <img id='v3'  src="assets/coracao_cheio.png" alt="coração cheio">
+
+        </div>
+
+        <div class='tempo'>
+            
+            <span>tempo restante : </span><span id="tempo"></span> 
+        </div>
+    </div>
+
+
+    
+    <script>
+        positionRandomic();
+        var criaMosquito = setInterval(function (){positionRandomic()},tempoMosquito)
+
+    </script>
+</body>
+</html>

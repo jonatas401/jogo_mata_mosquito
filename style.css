@@ -1,0 +1,129 @@
+@media (max-width:410px){
+    header img{
+        width:10%;
+        margin:auto;
+        min-width: 292px;
+    }
+    button{
+        margin:auto;
+        width:70px;
+        
+    }
+    select{
+        margin:auto;
+        width:80px;
+    }
+
+ 
+}
+html{
+    cursor:url(assets/mata_mosca.png) 20 20, auto;
+    height:100%;
+    width:100%;
+
+}
+
+body{
+    background:url("assets/bg.jpg")  ;
+    margin:auto;
+    padding:0;
+    margin:auto;
+
+    
+}
+
+button:hover{
+    background:white;
+    color:black;
+}
+button{
+    text-align: center;
+    text-decoration:none;
+    background:black;
+    color:white;
+    width: 150px;
+    height:40px;
+    border-radius:8px;
+    margin-bottom: 20px;
+    text-align: centerS;
+}
+img{ 
+    max-width:550px;
+    
+}
+
+
+h1{
+    color:black;
+}
+
+
+/******pagina inicial*******/
+
+select{
+    touch-action: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    padding:10px;
+    width:150px;
+    text-align: center;
+    align-content: center;
+    background: rgb(29, 24, 24);
+    color:white;
+}
+
+img#inicio{
+    max-width: 400px;
+}
+
+
+/***mosquito****/
+.mosquito{
+    height:50px;
+    width:50px;
+}
+.mosquito1{
+    height:30px;
+    width:30px;
+}
+.mosquito2{
+    height:30px;
+    width:40px;
+}
+.mosquitoa{
+    transform: scalex(1)
+}
+.mosquitob{
+    transform:scalex(-1)
+}
+.mosquitoc{
+    transform:scaley(-1)
+}
+/***painel de vida e tempo***/
+
+.painel{
+    background: rgb(56, 53, 53);
+    position: absolute;
+    bottom:0;
+    width:200px;
+    height:50px;
+    opacity: 0.9;
+
+}
+.vidas{
+    float:left;
+}
+.tempo{
+    float:left;
+    color:white;
+}
+/*****pagina game over******/
+header#fim{
+    align-items: center;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
